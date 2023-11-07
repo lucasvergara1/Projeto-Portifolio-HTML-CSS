@@ -76,12 +76,15 @@ a::before {
 }      
 
 nav #button:hover {
-    color: #7C5E99;
+    /*opacity: 0.4;*/
+    transform: scale(1.2);
+    color: #a354ed;
     transition: 0.5s;
-
+    
 }
 
 nav a:hover {
+    transform: scale(1.1);
     color: #cc276c;
     transition: 0.5s;
 
