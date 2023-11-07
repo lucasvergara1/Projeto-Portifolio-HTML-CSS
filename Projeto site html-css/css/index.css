@@ -72,14 +72,15 @@ a::before {
     box-shadow: 5px 5px 0px black;
     padding: 18px 20px;
     margin-right: 0px;
+    transition: 0.5s linear;
 
 }      
 
-nav #button:hover {
+#button:hover {
     /*opacity: 0.4;*/
     transform: scale(1.2);
     color: #a354ed;
-    transition: 0.5s;
+    
     
 }
 
