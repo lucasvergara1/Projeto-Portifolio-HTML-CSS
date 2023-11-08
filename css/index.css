@@ -89,3 +89,58 @@ nav a:hover {
     color: #cc276c;
     transition: 0.5s;
 }
+
+div {
+    display: inline-block;
+    background-color: #3A4042;
+    box-shadow: 10px 10px 0px black;
+    width: 1440px;
+    height: 797px;
+    padding-top: 80px;
+    
+
+}
+
+
+h1{
+    display: inline-block;
+    align-items: center;
+    font-size: 40px;
+    font-family: "Press Start 2P", Arial;
+    color: #F25A70;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 30px;
+    padding-bottom: 28px;
+    margin: 0
+}
+
+h2{
+    display: inline-block;
+    font-size: 30px;
+    font-family: "Press Start 2P", Arial;
+    color: #FFFFFF;
+    font-weight: 400;
+    text-decoration: none;
+    margin-right: 30px;
+    margin: 0
+}
+
+
+#button1:hover {
+    display: inline-block;
+    background-color: #F25A70;
+    box-shadow: 5px 5px 0px black;
+    transform: scale(1.2);
+    color: red;
+ 
+}
+
+#button2:hover {
+    display: inline-block;
+    background-color: #F25A70;
+    box-shadow: 5px 5px 0px black;
+    transform: scale(1.2);
+    color: yellow;
+
+}
