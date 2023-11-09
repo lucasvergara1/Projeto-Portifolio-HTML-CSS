@@ -1,0 +1,22 @@
+.action { 
+    display: inline-flex;
+    align-items: center;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-family: "Fira Code", Arial, Helvetica; <!-- Aqui eu quis focar na fonta Fira Code e separei por virgula fontes reserva caso surja erros na fonte principal, ou seja, reserva Arial e se não der certo vai usar Helvetica  -->
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    
+}
+
+
+.action::before {
+    content: " ";
+    background-color: #F25A70;
+    width: 10px;
+    height: 10px;
+    margin-right: 10px;
+}
+<!-- Aqui :: significa que é um pseudo elemento focado para criar os botoes, ou seja, focado em criar algo que nao existe no html em si -->
+

@@ -1,0 +1,24 @@
+.button {
+    display: inline-block;
+    background-color: #F25A70;
+    box-shadow: 5px 5px 0px black;
+    padding: 18px 20px;
+    margin-right: 0px;
+    transition: 0.5s linear;
+    color: #fff;
+    text-decoration: none;
+    font-family: "Fira Code", Arial, Helvetica;
+    font-weight: 500;
+    text-decoration: none;
+    
+
+}      
+
+.button:hover {
+    /*opacity: 0.4;*/
+    transform: scale(1.2);
+    color: #a354ed;
+    
+    
+}
+
