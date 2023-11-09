@@ -89,18 +89,7 @@ nav a:hover {
     color: #cc276c;
     transition: 0.5s;
 }
-
-div {
-    display: inline-block;
-    background-color: #3A4042;
-    box-shadow: 10px 10px 0px black;
-    width: 1440px;
-    height: 797px;
-    padding-top: 80px;
     
-
-}
-
 #button1:hover {
     display: inline-block;
     background-color: #F25A70;
