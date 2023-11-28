@@ -7,8 +7,9 @@
     font-weight: 500;
     text-decoration: none;
     margin-right: 30px;
-    
+
 }
+
 
 
 .main-action::before {
@@ -19,4 +20,3 @@
     margin-right: 10px;
 }
 <!-- Aqui :: significa que é um pseudo elemento focado para criar os botoes, ou seja, focado em criar algo que nao existe no html em si -->
-
