@@ -7,6 +7,10 @@
 
 }
 
+.button-arrow .content {
+    display: none;
+}
+
 .button-arrow::before {
     content: '';
     display: block;
@@ -14,6 +18,11 @@
     width: 15px;
     height: 15px;
     border: 15px solid transparent;
-    border-left: 28px solid white;
+    border-left: 35px solid white;
+    transform: translateX(5px);
 }
 
+.button-arrow.-left::before {
+    transform: rotate(180deg) translateX(12px);
+
+}
