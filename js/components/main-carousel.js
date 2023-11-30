@@ -10,7 +10,21 @@
 //6 PEgar HTML todo
 //7 Pegar o elements
 //8 Mover o Elements
+//9
 
-const btnRight = window.document.querySelector('.button-arrow.-right')
 
-console.log(btnRight);
+const btnRight = document.querySelector('.button-arrow.-right');
+const btnLeft = document.querySelector('.button-arrow.-left');
+const elements = document.querySelector('.elements');
+let pixels = 10;
+
+btnRight.addEventListener('click', function() {
+    pixels = pixels + 10;
+    elements.style.transform = `translateX(${pixels}px)`;
+});
+
+btnLeft.addEventListener('click', function(){
+    pixels = pixels - 10;
+    elements.style.transform = `translateX(${pixels}px)`;
+
+});
